@@ -5,11 +5,11 @@ body{
 }
 .box{
     border-color: black;
-    background-color: white;
+    background-color:white;
     width: 47%;
     height: 125px;
-    box-shadow:5px, 5px, 5px ,5px; color: #000;
     margin-bottom: 15px;
+    transition: 0.3s ease;
 }
 .circle {
     position: absolute;
@@ -33,20 +33,49 @@ ul {
     list-style: none;
 }
 .box span{
-    padding-top:15px;
     padding-left:15px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
+    background-color: black;
+    color: white;
 }
 
 .navigation{
     display: flex;
     justify-content:space-between;
     background-color: rgb(161, 131, 189);
+    padding:15px;
 
 }
-
 h1 {
  font-family:'Montserrat', sans-serif; 
+ letter-spacing:3px;
+}
+
+.padding {
+    padding-left: 40px;
+}
+
+.box:hover {
+    background-color:rgb(161, 131, 189);
+   
+}
+
+.mail{
+    text-decoration:underline;
+    color: black;
+    
+}
+
+.title {
+    margin-top:15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+
+
 }
